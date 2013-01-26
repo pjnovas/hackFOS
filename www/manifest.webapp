@@ -2,7 +2,7 @@
   "version": "0.1",
   "name": "My App",
   "description": "Your new awesome Open Web App",
-  "launch_path": "/",
+  "launch_path": "/index.html",
   "icons": {
     "16": "/img/icons/mortar-16.png",
     "48": "/img/icons/mortar-48.png",
@@ -10,7 +10,7 @@
   },
   "developer": {
     "name": "Your Name",
-    "url": "http://yourawesomeapp.com"
+    "url": "http://localhost:8080"
   },
   "installs_allowed_from": ["*"],
   "appcache_path": "/cache.manifest",
@@ -18,7 +18,7 @@
     "es": {
       "description": "Su nueva aplicación impresionante Open Web",
       "developer": {
-        "url": "http://yourawesomeapp.com"
+        "url": "http://localhost:8080"
       }
     }
   },
